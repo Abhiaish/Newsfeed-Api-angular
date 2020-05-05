@@ -1,0 +1,14 @@
+<div class="row" style="margin-left: 5px; background-color: #e9f3f7;">
+    <div *ngFor="let article of techcrunch">
+    <h2>{{article.title}}</h2>
+    <p>{{article.description}}.</p>
+    
+    
+    
+    <img src="{{article.urlToImage}}" alt="image" style="width:390px; margin-left: 350px;"><br>
+    <a href="{{article.url}}">Read Full article</a>
+    <hr>
+    </div>
+ 
+</div>
+<hr>
